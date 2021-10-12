@@ -1,0 +1,14 @@
+POST http://localhost:666/birds
+Content-Type: application/json
+X-Test: f
+
+{
+    "species": "Birdo",
+    "notes": "Birdo is a realy nice bird",
+    "estimatedAmount": 20
+}
+
+###
+
+GET http://localhost:666/birds
+Content-Type: application/json

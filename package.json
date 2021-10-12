@@ -1,0 +1,26 @@
+{
+  "name": "be-security-validate-Asaroz",
+  "version": "1.0.0",
+  "description": "- Do not use mongo/mongoose\r - Create a tiny API with two endpoints:\r   - `GET /birds` - returns current list of bird sightings in app memory\r   - `POST /birds` - adds a bird sighting to app memory",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-E01/be-security-validate-Asaroz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW-E01/be-security-validate-Asaroz/issues"
+  },
+  "homepage": "https://github.com/FbW-E01/be-security-validate-Asaroz#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "nodemon": "^2.0.13"
+  }
+}
